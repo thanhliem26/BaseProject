@@ -1,0 +1,27 @@
+@import 'normalize.css';
+
+@font-face {
+    font-family: 'NotosanJp';
+    src: url('../containers/fonts/NotoSansJp/NotoSansJP-Regular.otf');
+}
+
+$light: #FFFFFF;
+$primary_3: #FFCC21;
+$primary_4: #FF963C;
+$primary_5: #EA6C00;
+$secondary: #8FE9D0;
+$dark_6: #2E2E2E;
+$dark_5: #414141;
+$gray: #777777;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'NotosanJp', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

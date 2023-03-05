@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "esModuleInterop": true,
+      "strict": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "target": "es5",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "types": ["react", "react-dom"],
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["src/*"],
+        "@components/*": ["src/components/*"],
+        "@styles/*": ["src/styles/*"],
+        "@utils/*": ["src/utils/*"],
+        "@config/*": ["src/config/*"]
+      }
+    },
+    "include": ["src"]
+  }
+  
